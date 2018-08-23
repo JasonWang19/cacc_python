@@ -1,4 +1,4 @@
-# Game Over - Version 2
+# Hello World - Version 2
 # Demonstrates the use of quotes in strings
 
 print("Program 'Hello World' 2.0")
