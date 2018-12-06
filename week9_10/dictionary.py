@@ -26,5 +26,9 @@ else:
 print(geek.get("Dancing Baloney"))
 print(geek.get("Dancing Baloney", "I have no idea."))
 
-# add new term to dic
+# add new key to dic
 geek["Data Structure"] = "In computer science, a data structure is a data organization, management and storage format that enables efficient access and modification."
+
+# delete a key
+del geek["404"]
+print(geek["404"])
