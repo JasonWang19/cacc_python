@@ -17,7 +17,6 @@ def give_me_random():
 
 
 def answer_question(question):
-    display(question)
     response = None
     while response not in ('y', 'n'):
         response = input(question).lower()
